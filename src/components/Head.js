@@ -6,6 +6,7 @@ import { cacheResults } from "../utils/searchSlice";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
+
 const Head = () => {
 
     const [searchQuery, setSearchQuery] = useState("");
@@ -95,6 +96,7 @@ const Head = () => {
             </div>
             <div className="col-span-1 ">
                 <img className="h-8" alt="user-icon" src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" />
+               
             </div>
 
         </div>
